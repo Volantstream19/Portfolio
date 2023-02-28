@@ -1,0 +1,53 @@
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(21, 21, 22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title h1 {
+  font-size: 2rem;
+  color: azure;
+  margin-bottom: -15px;
+}
+
+.about-title h5 {
+  font-size: 1rem;
+  color: azure;
+  margin-left: 10px;
+}
+
+.about-title {
+  position: fixed;
+  top: 270px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.about-me {
+  display: flex;
+  color: aliceblue;
+  margin: 20px 15% 20px 15%;
+  padding-left: 15px;
+  justify-content: left;
+  text-align: justify;
+  hyphens: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  width: 70%;
+  bottom: -500px;
+}
